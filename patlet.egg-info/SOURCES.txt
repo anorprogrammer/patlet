@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+patlet/__init__.py
+patlet/letters.py
+patlet/main.py
+patlet.egg-info/PKG-INFO
+patlet.egg-info/SOURCES.txt
+patlet.egg-info/dependency_links.txt
+patlet.egg-info/top_level.txt
