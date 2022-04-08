@@ -1,12 +1,12 @@
 # Anorboyev Shahobiddin
 # 08.04.2021
 
-#HARFLAR A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+# HARFLAR A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 
-charters= {
+charters = {
 
-    "let_a":r"""
+    "let_a": r"""
       *
      * *
     *   *
@@ -16,7 +16,7 @@ charters= {
 *           *
 """,
 
-    "let_b":r"""
+    "let_b": r"""
 *********
 *        *
 *        *
