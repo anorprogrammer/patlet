@@ -4,10 +4,18 @@
 + Installation using pip<br>
 `$ pip install patlet`
 
-+ Use
+#### Use
++ horizontal printing
   ```python
   from patlet import PatLet
 
-  test = PatLet("PatLet")
-  test.printer(char='*')
+  obj = PatLet("PatLet")
+  obj.printer(char='*')
   ```
++ writing .txt file
+```python
+from patlet import PatLet
+
+obj = PatLet("PatLet")
+obj.writer(char="*")
+```
