@@ -19,11 +19,11 @@ class PatLet:
 
     def writer(self, char: str = "*", filename: str = "patlet.txt"):
         if len(char) != 1:
-            with open(f"{filename}", "a") as f:
+            with open(f"{filename}.txt", "a") as f:
                 for let in self.text:
                     f.write(charters[f"let_{let.lower()}"])
         else:
-            with open(f"{filename}", "a") as f:
+            with open(f"{filename}.txt", "a") as f:
                 for let in self.text:
                     f.write(charters[f"let_{let.lower()}"].replace(
                         "*", f"{char}"))
