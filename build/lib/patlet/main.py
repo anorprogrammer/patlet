@@ -9,15 +9,23 @@ class PatLet:
         self.text = text
 
     def printer(self, char: str):
-        if len(char)!=1:
+        if len(char) != 1:
             for let in self.text:
                 print(charters[f"let_{let.lower()}"])
         else:
             for let in self.text:
                 print(charters[f"let_{let.lower()}"].replace("*", f"{char}"))
 
-
-
+    def writer(self, char: str):
+        if len(char) != 1:
+            with open("patlet.txt", "a") as f:
+                for let in self.text:
+                    f.write(charters[f"let_{let.lower()}"])
+        else:
+            with open("patlet.txt", "a") as f:
+                for let in self.text:
+                    f.write(charters[f"let_{let.lower()}"].replace(
+                        "*", f"{char}"))
 
 
 ###############################################################
@@ -28,7 +36,6 @@ class PatLet:
     #     result = """"""
     #     text = self.text
     #     print(text)
-
 
         # for let in self.text:
         # letter = charters[f"let_{self.text[0].lower()}"].splitlines()
@@ -44,8 +51,6 @@ class PatLet:
         #             r+=" "*(15-len(r))
         #         print(r, sep="")
         #     print(res)
-
-
 
 
 # pattern = PatLet(text="Kitob")
