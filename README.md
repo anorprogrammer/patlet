@@ -13,9 +13,9 @@
   obj.printer(char='*')
   ```
 + writing .txt file
-```python
-from patlet import PatLet
+  ```python
+  from patlet import PatLet
 
-obj = PatLet("PatLet")
-obj.writer(char="*")
-```
+  obj = PatLet("PatLet")
+  obj.writer(char="*")
+  ```
