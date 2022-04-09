@@ -9,7 +9,7 @@ class PatLet:
         """PatLet ning xususiyatlari"""
         self.text = text
 
-    def printer(self, char: str):
+    def printer(self, char: str = "*"):
         if len(char) != 1:
             for let in self.text:
                 print(charters[f"let_{let.lower()}"])
@@ -17,7 +17,7 @@ class PatLet:
             for let in self.text:
                 print(charters[f"let_{let.lower()}"].replace("*", f"{char}"))
 
-    def writer(self, char: str):
+    def writer(self, char: str = "*"):
         if len(char) != 1:
             with open("patlet.txt", "a") as f:
                 for let in self.text:
