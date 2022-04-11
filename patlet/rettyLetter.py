@@ -15,7 +15,7 @@ class PrettyLetter:
                 result += f"{let}"
         print(result)
 
-    def writer(self, number: int, filename: str = "patlet.txt"):
+    def writer(self, number: int, filename: str = "patlet"):
         with open(f"{filename}.txt", "a") as f:
             for let in self.text:
                 try:
