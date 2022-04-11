@@ -1,4 +1,4 @@
-# Pattern Letters
+# ╠P╣╠a╣╠t╣╠t╣╠e╣╠r╣╠n╣ ╠L╣╠e╣╠t╣╠t╣╠e╣╠r╣╠s╣
 ## Geting started
 
 This library has been tested with Python 3.6-3.10 and Pypy 3.
